@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+body{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background-color: black !important;
+}
+.slider{
+    display: flex;
+    width: 100%;
+    position: relative;
+    margin-left: 300px;
+}
+.slides img{
+    position: absolute;
+    margin-top: 100px;
+    width: 800px;
+    height: 500px;
+    object-fit: cover;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btnn{
+    display: inline-block;
+    margin-top: 320px;
+    margin-left: 759px;
+    position: absolute;
+    color: black;
+    font-size: 27px;
+    width: 40px !important;
+    border-radius: 20px;
+    padding: 8px 7px;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bolder;
+    user-select: none;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.bt{
+    display: inline-block;
+    position: absolute;
+    margin-top: 320px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black;
+    font-size: 27px;
+    width: 40px !important;
+    border-radius: 20px;
+    padding: 8px 7px;
+    align-items: center;
+    font-weight: bolder;
+    cursor: pointer;
+    user-select: none;
+}
+.btt:hover{
+    background-color: black;
+    color: antiquewhite;
+}
+.slides{
+    display: none;
+}
+@media( max-width: 543px){
+    .slider{
+        display: flex;
+        width: 100%;
+        position: relative;
+        /* margin-left: 300px; */
+    }
+    .slides img{
+        position: absolute;
+        margin-top: 200px;
+        width: 480px;
+        height: 300px;
+        object-fit: cover;
+        align-items: center;
+        justify-content: center;
+        margin-left: -260px;
+    
+    }
+    .btnn{
+        display: inline-block;
+        margin-top: 320px;
+        margin-left: 190px;
+        position: absolute;
+        color: black;
+        font-size: 20px;
+        width: 30px !important; 
+        border-radius: 20px;
+        padding: 8px 7px;
+        align-items: center;
+        cursor: pointer;
+        font-weight: bolder;
+        user-select: none;
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+    .bt{
+        display: inline-block;
+        position: absolute;
+        margin-top: 320px;
+        background-color: rgba(255, 255, 255, 0.3);
+        color: black;
+        margin-left: -260px;
+        font-size: 20px;
+        width: 30px !important;
+        border-radius: 20px;
+        padding: 8px 7px;
+        align-items: center;
+        font-weight: bolder;
+        cursor: pointer;
+        user-select: none;
+    }
+    
+}
+@media( max-width: 365px){
+    .slider{
+        display: flex;
+        width: 100%;
+        position: relative;
+        /* margin-left: 300px; */
+    }
+    .slides img{
+        position: absolute;
+        margin-top: 200px;
+        width: 310px;
+        height: 300px;
+        object-fit: cover;
+        align-items: center;
+        justify-content: center;
+        margin-left: -260px;
+    
+    }
+    .btnn{
+        display: inline-block;
+        margin-top: 320px;
+        margin-left: 20px;
+        position: absolute;
+        color: black;
+        font-size: 20px;
+        width: 30px !important; 
+        border-radius: 20px;
+        padding: 8px 7px;
+        align-items: center;
+        cursor: pointer;
+        font-weight: bolder;
+        user-select: none;
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+    .bt{
+        display: inline-block;
+        position: absolute;
+        margin-top: 320px;
+        background-color: rgba(255, 255, 255, 0.3);
+        color: black;
+        margin-left: -260px;
+        font-size: 20px;
+        width: 30px !important;
+        border-radius: 20px;
+        padding: 8px 7px;
+        align-items: center;
+        font-weight: bolder;
+        cursor: pointer;
+        user-select: none;
+    }
+    
+}
+@media( max-width: 300px){
+    .slider{
+        display: flex;
+        width: 100%;
+        position: relative;
+        /* margin-left: 300px; */
+    }
+    .slides img{
+        position: absolute;
+        margin-top: 200px;
+        width: 310px;
+        height: 300px;
+        object-fit: cover;
+        align-items: center;
+        justify-content: center;
+        margin-left: -260px;
+    
+    }
+    .btnn{
+        display: inline-block;
+        margin-top: 320px;
+        margin-left: 20px;
+        position: absolute;
+        color: black;
+        font-size: 20px;
+        width: 30px !important; 
+        border-radius: 20px;
+        padding: 8px 7px;
+        align-items: center;
+        cursor: pointer;
+        font-weight: bolder;
+        user-select: none;
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+    .bt{
+        display: inline-block;
+        position: absolute;
+        margin-top: 320px;
+        background-color: rgba(255, 255, 255, 0.3);
+        color: black;
+        margin-left: -260px;
+        font-size: 20px;
+        width: 30px !important;
+        border-radius: 20px;
+        padding: 8px 7px;
+        align-items: center;
+        font-weight: bolder;
+        cursor: pointer;
+        user-select: none;
+    }
+    
+}
+@media( max-width: 413px){
+    .slider{
+        display: flex;
+        width: 100%;
+        position: relative;
+        /* margin-left: 300px; */
+    }
+    .slides img{
+        position: absolute;
+        margin-top: 200px;
+        width: 370px;
+        height: 300px;
+        object-fit: cover;
+        /* align-items: center;
+        justify-content: center; */
+        margin-left: -260px;
+    
+    }
+    .btnn{
+        display: inline-block;
+        margin-top: 320px;
+        margin-left: 70px;
+        position: absolute;
+        color: black;
+        font-size: 20px;
+        width: 30px !important; 
+        border-radius: 20px;
+        padding: 8px 7px;
+        align-items: center;
+        cursor: pointer;
+        font-weight: bolder;
+        user-select: none;
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+    .bt{
+        display: inline-block;
+        position: absolute;
+        margin-top: 320px;
+        background-color: rgba(255, 255, 255, 0.3);
+        color: black;
+        margin-left: -260px;
+        font-size: 20px;
+        width: 30px !important;
+        border-radius: 20px;
+        padding: 8px 7px;
+        align-items: center;
+        font-weight: bolder;
+        cursor: pointer;
+        user-select: none;
+    }
+    
+}
